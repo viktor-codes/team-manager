@@ -32,7 +32,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1",
-    "https://team-manager-05f5965c2315.herokuapp.com/",
+    "https://team-manager-05f5965c2315.herokuapp.com",
 ]
 
 
