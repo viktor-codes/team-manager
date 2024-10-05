@@ -138,6 +138,13 @@ SOCIALACCOUNT_PROVIDERS = {
         "METHOD": "oauth2",
     },
 }
+
+# In your settings.py
+ACCOUNT_EMAIL_VERIFICATION = "none"
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_USERNAME_REQUIRED = False
+
+
 # Internationalization
 # https://docs.djangoproject.com/en/5.1/topics/i18n/
 
