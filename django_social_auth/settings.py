@@ -99,11 +99,11 @@ WSGI_APPLICATION = "django_social_auth.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": os.getenv("DB_NAME"),
-        "USER": os.getenv("DB_USER"),
-        "PASSWORD": os.getenv("DB_PASSWORD"),
-        "HOST": os.getenv("DB_HOST"),
-        "PORT": os.getenv("DB_PORT"),
+        "NAME": "d9lfsgvpoif54m",
+        "USER": "ubiu7cm68up1pd",
+        "PASSWORD": "pb9750afb38ad89e41b11cf5dd8e7dc7241c1b88584e7e59599a55e616bbae0b2",
+        "HOST": "pb9750afb38ad89e41b11cf5dd8e7dc7241c1b88584e7e59599a55e616bbae0b2@c9tiftt16dc3eo.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com:5432/d9lfsgvpoif54m",
+        "PORT": "5432",
     },
 }
 
