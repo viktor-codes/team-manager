@@ -89,23 +89,23 @@ WSGI_APPLICATION = "django_social_auth.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
-    }
-}
-
 # DATABASES = {
 #     "default": {
-#         "ENGINE": "django.db.backends.postgresql",
-#         "NAME": "d9lfsgvpoif54m",
-#         "USER": "ubiu7cm68up1pd",
-#         "PASSWORD": "pb9750afb38ad89e41b11cf5dd8e7dc7241c1b88584e7e59599a55e616bbae0b2",
-#         "HOST": "c9tiftt16dc3eo.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com",
-#         "PORT": "5432",
-#     },
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": BASE_DIR / "db.sqlite3",
+#     }
 # }
+
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "d9lfsgvpoif54m",
+        "USER": "ubiu7cm68up1pd",
+        "PASSWORD": "pb9750afb38ad89e41b11cf5dd8e7dc7241c1b88584e7e59599a55e616bbae0b2",
+        "HOST": "c9tiftt16dc3eo.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com",
+        "PORT": "5432",
+    },
+}
 
 
 # Password validation
@@ -149,11 +149,6 @@ SOCIALACCOUNT_PROVIDERS = {
         "METHOD": "oauth2",
     },
 }
-
-# In your settings.py
-# ACCOUNT_EMAIL_VERIFICATION = "none"
-# ACCOUNT_EMAIL_REQUIRED = True
-# ACCOUNT_USERNAME_REQUIRED = False
 
 
 # Internationalization
