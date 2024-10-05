@@ -133,7 +133,7 @@ LOGOUT_REDIRECT_URL = "/"
 
 SOCIALACCOUNT_PROVIDERS = {
     "facebook": {
-        "SCOPE": [],
+        "SCOPE": ["email"],
         "AUTH_PARAMS": {},
         "METHOD": "oauth2",
     },
