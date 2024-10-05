@@ -103,7 +103,7 @@ DATABASES = {
         "USER": "ubiu7cm68up1pd",
         "PASSWORD": "pb9750afb38ad89e41b11cf5dd8e7dc7241c1b88584e7e59599a55e616bbae0b2",
         "HOST": "c9tiftt16dc3eo.cluster-czz5s0kz4scl.eu-west-1.rds.amazonaws.com",
-        "PORT": "5432",
+        "PORT": os.getenv("DB_PORT"),
     },
 }
 
